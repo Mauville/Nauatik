@@ -1,0 +1,18 @@
+<ng-container *ngTemplateOutlet="buttonConfig['text'] ? text : image">
+</ng-container>
+
+<!-- Text Button -->
+<ng-template #text>
+  <button type="button" class="chunky {{buttonConfig.role}}">
+    <a routerLink="{{buttonConfig.route}}">{{buttonConfig.text}}</a>
+  </button>
+
+
+</ng-template>
+
+<!-- Image Button -->
+<ng-template #image>
+  <img [src]="buttonConfig.src"
+       [ngStyle]="buttonConfig.styles"
+       alt="">
+</ng-template>
