@@ -1,0 +1,9 @@
+.banner{
+  color: white;
+  background-color: #496225;
+  padding: 1em ;
+  margin: 1em 0;
+  width: 100vw;
+  min-width: 100vw;
+  text-align: center;
+}
