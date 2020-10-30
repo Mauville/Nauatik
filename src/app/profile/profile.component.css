@@ -2,10 +2,6 @@ h1{
   text-align: center;
 }
 
-.blockline{
-  display: flex;
-  align-items: center;
-}
 
 .icon{
   padding:0 1em;

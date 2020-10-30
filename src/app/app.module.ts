@@ -12,6 +12,7 @@ import { CategoryComponent } from './category/category.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BannerComponent } from './banner/banner.component';
 import { ProfileComponent } from './profile/profile.component';
+import { SelectionComponent } from './selection/selection.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProfileComponent } from './profile/profile.component';
     HeaderComponent,
     CategoryComponent,
     BannerComponent,
-    ProfileComponent
+    ProfileComponent,
+    SelectionComponent
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,8 @@ import {CategoryData} from '../category/category.component';
 })
 export class HomeComponent implements OnInit {
 
+  // TODO Add link to router on categories
+
   plastic: CategoryData = {faIcon: 'assets/bottle.png', title: 'Plástico'};
   paper: CategoryData = {faIcon: 'assets/cardboard.png', title: 'Papel y Cartón'};
   glass: CategoryData = {faIcon: 'assets/glass.png', title: 'Vidrio'};

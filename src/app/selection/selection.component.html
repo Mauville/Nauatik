@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div class="center">
+  <h1>Has Seleccionado:</h1>
+  <app-banner text="Plastico"></app-banner>
+  <div id="nether">
+    <div class="blockline">
+      <input type="text" placeholder="1"><label>kg</label>
+    </div>
+    <img src="assets/scale.png">
+    <h4>Tu ganancia será de:</h4>
+    <p id="earn">$<span id="money">200</span></p>
+    <app-button [buttonConfig]="forwardConfig"></app-button>
+  </div>
+</div>
+
+

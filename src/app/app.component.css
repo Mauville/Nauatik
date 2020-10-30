@@ -7,6 +7,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.blockline{
+  display: flex;
+  align-items: center;
+}
 
 p {
   margin: 0;
