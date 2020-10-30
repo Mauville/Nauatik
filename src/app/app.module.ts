@@ -13,6 +13,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BannerComponent } from './banner/banner.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SelectionComponent } from './selection/selection.component';
+import { DetailsComponent } from './details/details.component';
+import { ThankyouComponent } from './thankyou/thankyou.component';
+import { CauseComponent } from './cause/cause.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +27,16 @@ import { SelectionComponent } from './selection/selection.component';
     CategoryComponent,
     BannerComponent,
     ProfileComponent,
-    SelectionComponent
+    SelectionComponent,
+    DetailsComponent,
+    ThankyouComponent,
+    CauseComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
