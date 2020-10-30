@@ -1,13 +1,28 @@
 <app-header></app-header>
 <h1>Mi Perfil</h1>
-<fa-icon [icon]="faUser" size="1x"></fa-icon>
-<p>User Name</p>
-<h2>Mi Direccion</h2>
-<fa-icon [icon]="faEdit" size="1x"></fa-icon>
-<p>Add 1</p>
-<p>Add2</p>
-<p>ZIP</p>
-<p> + Add an address</p>
-<h2>Mi cuenta</h2>
-<p>**************5643</p>
-<app-banner text="Haz realizado 260 donaciones!"></app-banner>
+<div id="profileblock">
+  <div class="blockline">
+    <fa-icon [icon]="faUser" id="usericon" size="1x"></fa-icon>
+    <p>User Name</p>
+  </div>
+  <div class="blockline">
+    <h3>Mi Direccion</h3>
+    <fa-icon [icon]="faEdit" class="icon" size="1x"></fa-icon>
+  </div>
+
+  <div class="groupblock">
+    <p>Cumbres de Icaiche 256</p>
+    <div class="blockline">
+      <p>Lomas del Pedregal 98722</p>
+    </div>
+    <p id="muted"> + Add an address</p>
+  </div>
+  <div class="blockline">
+    <h3>Mi cuenta</h3>
+    <fa-icon [icon]="faEdit" class="icon" size="1x"></fa-icon>
+  </div>
+  <div class="groupblock">
+    <p>**** **** ****  5643</p>
+  </div>
+</div>
+<app-banner text="contributions"></app-banner>
