@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es-MX" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3aae5bba59327acde4e2b198f48cad7b69727d59" datatype="html">
+        <source>Hola <x id="INTERPOLATION" equiv-text="{{name}}"/></source><target>Hello</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">greeting2</note>
+      </trans-unit>
+      <trans-unit id="9f2fa13d37e4d24b6f994a7dbde4a19a9b09c8f7" datatype="html">
+        <source>Usuario</source><target>User</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">user</note>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source><target>Password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">password</note>
+      </trans-unit>
+      <trans-unit id="9de2c37796a1d82098b7aa2cc145347627c6798e" datatype="html">
+        <source>Hola de nuevo!</source><target>Hey there!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">greeting</note>
+      </trans-unit>
+      <trans-unit id="3106eaa40f2a5010306a2d417564630fcb615aa2" datatype="html">
+        <source>Tienes más desechos?</source><target>Have more trash?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">refuse</note>
+      </trans-unit>
+      <trans-unit id="bbeaa320dec560719d1e159fab12d36984d6c844" datatype="html">
+        <source>Selecciona la categoría</source><target>Pick a Category</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">choose categ</note>
+      </trans-unit>
+      <trans-unit id="37b25d879dd2fab0bfd3825fbff56b669a3b841b" datatype="html">
+        <source>
+        <x id="START_TAG_APP-CATEGORY" ctype="x-app-category" equiv-text="&lt;app-category&gt;"/><x id="CLOSE_TAG_APP-CATEGORY" ctype="x-app-category" equiv-text="&lt;/app-category&gt;"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8368cd745bbe532549dab8acdde87502869d9b4" datatype="html">
+        <source>Mi Perfil</source><target>My Profile</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/profile/profile.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">my profile</note>
+      </trans-unit>
+      <trans-unit id="4fcb6dbd1b656de4f606e061af0ed606d3fdc547" datatype="html">
+        <source>User Name</source><target>UserName</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/profile/profile.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">username</note>
+      </trans-unit>
+      <trans-unit id="31b8f3625653ce24c530b794486096ed8d5fd418" datatype="html">
+        <source>Mi Direccion</source><target>My Address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/profile/profile.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">my address</note>
+      </trans-unit>
+      <trans-unit id="7abec2b07521159a18a3b3c6a5f3e40ffdcff1ee" datatype="html">
+        <source> + Agregar una direccion</source><target>+ Add an address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/profile/profile.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">new add</note>
+      </trans-unit>
+      <trans-unit id="6c50174ef3bc22ed722c0bf30fe8f282d7ea996a" datatype="html">
+        <source>Mi cuenta</source><target>My Account</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/profile/profile.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">account</note>
+      </trans-unit>
+      <trans-unit id="75fe40ca9bee3390eddc5e62e53ace9a6d038274" datatype="html">
+        <source>Has Seleccionado:</source><target>You've chosen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/selection/selection.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">selected</note>
+      </trans-unit>
+      <trans-unit id="2cd991200dd3f80a3f859770f68905abed29bdad" datatype="html">
+        <source>Plastico</source><target>Plastic</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/selection/selection.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">plastic</note>
+      </trans-unit>
+      <trans-unit id="3c726037c91d6b8c35e7eeb8056266b5123748d1" datatype="html">
+        <source>Tu ganancia será de:</source><target>You'll earn</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/selection/selection.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">earnings</note>
+      </trans-unit>
+      <trans-unit id="27636ae965123df87cab5710081457e2edab3602" datatype="html">
+        <source>Construccion de Eco Ladrillos</source><target>Eco-Brick Construction</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/details/details.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">cause</note>
+      </trans-unit>
+      <trans-unit id="347f8be7d294e8d5b014a29aa05e3617bf110d09" datatype="html">
+        <source>Listo!</source><target>Done!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/thankyou/thankyou.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Done</note>
+      </trans-unit>
+      <trans-unit id="b5eda3e35736f6ef63ccfc61086a4b7efbf88a15" datatype="html">
+        <source>Gracias por formar parte del cambio.</source><target>Thank you for being part of the change.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/thankyou/thankyou.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">patpat</note>
+      </trans-unit>
+      <trans-unit id="2490ca142590ac376779e81be4e584ec8d2c2779" datatype="html">
+        <source>Los detalles de la recoleccion estan en tu correo.</source><target>The pickup details have been sent to you email.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/thankyou/thankyou.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">details are</note>
+      </trans-unit>
+      <trans-unit id="a024ee7395f566ae70198f1af1ddb9bae856ce49" datatype="html">
+        <source>Tu donacion ayudará a:</source><target>Your donation will help:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cause/cause.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">donation helps</note>
+      </trans-unit>
+      <trans-unit id="a522e2ff8d7e40b0c89159928ce1009d3d68f0da" datatype="html">
+        <source>Construir Eco Ladrillos</source><target>Eco-Brick Construction</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cause/cause.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description"> Details of the cause</note>
+        <note priority="1" from="meaning">Cause </note>
+      </trans-unit>
+      <trans-unit id="b7439eb817baae6731d5997cdb28a0732abc1f78" datatype="html">
+        <source>Conocer Mas</source><target>Learn more</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cause/cause.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Know more</note>
+      </trans-unit>
+      <trans-unit id="e049680ec17a0bafaf2e475e5fcb510c9d0ee3ba" datatype="html">
+        <source>Confirma tus datos</source><target>Confirm your information</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cause/cause.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">conf data</note>
+      </trans-unit>
+      <trans-unit id="32b76221871014d6b9f85260e5a390ea9487b4bc" datatype="html">
+        <source>Direccion:</source><target>Address:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cause/cause.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">address</note>
+      </trans-unit>
+      <trans-unit id="dc869ea9aea2537725cde95a9749f1583e0af6e7" datatype="html">
+        <source>Fecha de recoleccion
+    <x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>
+  </source><target>Date of Collection</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cause/cause.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">collection date</note>
+      </trans-unit>
+      <trans-unit id="8f2eb68c5de102ddbfdc02656b1dd3f993718964" datatype="html">
+        <source> Bienvenido</source><target>Welcome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">welcome</note>
+      </trans-unit>
+      <trans-unit id="e3f7a42fc64a9c0106f03930518aeac599ad827b" datatype="html">
+        <source>Completa la info de tu perfil</source><target>Complete your profile</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">complete info</note>
+      </trans-unit>
+      <trans-unit id="dd2a11ebc737589080ed400dacc33a8c8c84728b" datatype="html">
+        <source>Nombre</source><target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">name</note>
+      </trans-unit>
+      <trans-unit id="7c38873769d52761357ee184abd9925abb88c695" datatype="html">
+        <source>Telefono</source><target>Phone Number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">number</note>
+      </trans-unit>
+      <trans-unit id="bf443c9ece4dfbf8de839aae876059e592e0b2bd" datatype="html">
+        <source>Direccion de la recoleccion</source><target>Pickup Address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">add</note>
+      </trans-unit>
+      <trans-unit id="30282e0da8cb1d5d6cc9a441a488ca256f2e4413" datatype="html">
+        <source>Direccion linea 1</source><target>Address Line 1</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">add1</note>
+      </trans-unit>
+      <trans-unit id="059e961408be7a523e0fdc4014ccec81dfb631fe" datatype="html">
+        <source>Direccion Linea 2</source><target>Address Line 2</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">add2</note>
+      </trans-unit>
+      <trans-unit id="5478da3b6a08f24a39ec12fb05397089c325a7ed" datatype="html">
+        <source>Cuenta a la que depositaremos</source><target>Wire my rewards here</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">acccount to dep</note>
+      </trans-unit>
+      <trans-unit id="f3707c8ab341cd1252a41f6b88cb4ee93db03aba" datatype="html">
+        <source>Linea de Captura</source><target>CC Number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">capture</note>
+      </trans-unit>
+      <trans-unit id="b50a4de75babf70db96cd271bf13b4504463a0c8" datatype="html">
+        <source>Reportes</source><target>Reports</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/summary/summary.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">reports</note>
+      </trans-unit>
+      <trans-unit id="f0313893105f48f650137aded3be767b0a58b92b" datatype="html">
+        <source>Tus contribuciones</source><target>Your contributions</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/summary/summary.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">contribs</note>
+      </trans-unit>
+      <trans-unit id="1adb2ba4c58ea4c696beafd377918d12c38130e7" datatype="html">
+        <source>Contribuciones globales</source><target>Global Contributions</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/summary/summary.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">contribs g</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

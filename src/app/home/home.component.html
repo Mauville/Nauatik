@@ -5,7 +5,7 @@
   <h3 i18n="choose categ">Selecciona la categoría</h3>
   <main class="center">
     <div class="bookshelf">
-      <div *ngFor="let categ of categories">
+      <div i18n *ngFor="let categ of categories">
         <app-category [categoryConfig]="categ"></app-category>
       </div>
     </div>

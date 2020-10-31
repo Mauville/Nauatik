@@ -3,7 +3,7 @@
 
 <!-- Text Button -->
 <ng-template #text>
-  <button type="button" class="chunky {{buttonConfig.role}}">
+  <button (mousedown)="toggleState()" (mouseup)="toggleState()" type="button" class="chunky {{buttonConfig.role}}">
     <a routerLink="{{buttonConfig.route}}" routerLinkActive="active">{{buttonConfig.text}}</a>
   </button>
 

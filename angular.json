@@ -8,9 +8,14 @@
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
+      "i18n": {
+        "sourceLocale": "es-MX",
+        "locales": {
+          "en": "src/locale/messages.en.xliff"
+        }
+      },
       "prefix": "app",
       "architect": {
-        "sourceLocale": "es-MX",
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
@@ -18,6 +23,8 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
+            // Two builds are required for this thing to work. Will crash ng serve
+            //            "localize": true,
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
@@ -120,6 +127,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "nautika"
 }
