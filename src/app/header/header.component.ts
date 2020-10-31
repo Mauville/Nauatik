@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {IconDefinition} from '@fortawesome/fontawesome-svg-core';
 import {faUser} from '@fortawesome/free-solid-svg-icons/faUser';
-import {faBars} from '@fortawesome/free-solid-svg-icons/faBars';
+import {faChartBar} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   green = 'assets/logogreen.png';
   white = 'assets/logowhite.png';
   src = this.green;
-  faBars: IconDefinition = faBars;
+  faBars: IconDefinition = faChartBar;
   faUser: IconDefinition = faUser;
 
   constructor() {

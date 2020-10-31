@@ -1,18 +1,18 @@
 <app-header></app-header>
 <div class="center">
-  <h3>Tu donacion ayudará a:</h3>
+  <h3 i18n="donation helps">Tu donacion ayudará a:</h3>
   <a routerLink="/details" routerLinkActive="active" class="center">
-    <p id="cause">Construir Eco Ladrillos</p>
-    <p id="muted">Conocer Mas</p>
+    <p i18n="Cause | Details of the cause" id="cause">Construir Eco Ladrillos</p>
+    <p i18n="Know more" id="muted">Conocer Mas</p>
   </a>
-  <app-banner text="Confirma tus datos"></app-banner>
-  <label>Direccion:</label>
+  <app-banner i18n-text="conf data" text="Confirma tus datos"></app-banner>
+  <label i18n="address">Direccion:</label>
   <div class="blockline">
     <p>Costas de Icaiche 55, 55600
       <fa-icon [icon]="faEdit"></fa-icon>
     </p>
   </div>
-  <label>Fecha de recoleccion
+  <label i18n="collection date">Fecha de recoleccion
     <fa-icon [icon]="faCal"></fa-icon>
   </label>
   <input type="date">

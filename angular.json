@@ -10,6 +10,7 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
+        "sourceLocale": "es-MX",
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {

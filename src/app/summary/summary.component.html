@@ -1,0 +1,36 @@
+<app-header></app-header>
+<div class="center">
+  <h1 i18n="reports">Reportes</h1>
+  <!--Contributions graph-->
+  <app-banner i18n-text="contribs" text="Tus contribuciones"></app-banner>
+</div>
+<div class="flex graph">
+  <div class="flex-item">
+    <div style="display: block;">
+      <canvas baseChart width="400" height="400"
+              [datasets]="lineChartData"
+              [labels]="lineChartLabels"
+              [options]="lineChartOptions"
+              [colors]="lineChartColors"
+              [legend]="lineChartLegend"
+              [chartType]="lineChartType"
+      ></canvas>
+    </div>
+  </div>
+</div>
+<div class="center">
+  <app-banner i18n-text="contribs g" text="Contribuciones globales"></app-banner>
+  <div>
+    <div>
+      <div style="display: block">
+        <canvas id="pie" baseChart
+                [data]="polarAreaChartData"
+                [labels]="polarAreaChartLabels"
+                [legend]="polarAreaLegend"
+                [chartType]="polarAreaChartType">
+        </canvas>
+      </div>
+    </div>
+  </div>
+
+</div>

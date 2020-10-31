@@ -8,6 +8,7 @@ import {DetailsComponent} from './details/details.component';
 import {ThankyouComponent} from './thankyou/thankyou.component';
 import {CauseComponent} from './cause/cause.component';
 import {SignupComponent} from './signup/signup.component';
+import {SummaryComponent} from './summary/summary.component';
 
 const routes: Routes = [
   {path: '', component: LoginComponent, data: {animation: 'Login'}},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'thankyou', component: ThankyouComponent, data: {animation: 'ThankYou'}},
   {path: 'cause', component: CauseComponent, data: {animation: 'Cause'}},
   {path: 'signup', component: SignupComponent, data: {animation: 'SignUp'}},
+  {path: 'summary', component: SummaryComponent, data: {animation: 'SignUp'}},
 ];
 
 @NgModule({

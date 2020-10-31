@@ -6,8 +6,6 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent implements OnInit {
-
-
   buttonBack = {
     route: '/cause',
     text: 'Atras'
@@ -18,5 +16,4 @@ export class DetailsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

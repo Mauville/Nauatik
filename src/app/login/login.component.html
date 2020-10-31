@@ -1,8 +1,8 @@
 <div class="center">
   <img id="logo" src="assets/logogreen.png">
-  <p>Hola {{name}}</p>
-  <input [(ngModel)]="name" placeholder="Usuario">
-  <input type="password" placeholder="Password">
+  <p i18n="greeting2">Hola {{name}}</p>
+  <input [(ngModel)]="name" i18n-placeholder="user" placeholder="Usuario">
+  <input type="password" i18n-placeholder="password" placeholder="Password">
   <a>Olvidaste tu contraseña?</a>
   <app-button [buttonConfig]="LoginButtonConfig"></app-button>
   <app-button [buttonConfig]="SignUpButtonConfig"></app-button>
