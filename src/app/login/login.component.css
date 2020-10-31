@@ -1,4 +1,20 @@
 #logo{
   width: auto;
   height: 10em;
+  padding-bottom: 1em;
+
 }
+.center{
+  padding-top: 2em;
+}
+
+button, input {
+  margin: 1em 0;
+  padding: .5em;
+  border-radius: 3px;
+}
+
+a {
+  padding-bottom: 1em;
+}
+
