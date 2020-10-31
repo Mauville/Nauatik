@@ -1,27 +1,30 @@
-h1{
+h1 {
   text-align: center;
 }
 
 
-.icon{
-  padding:0 1em;
-}
-#usericon{
-  padding-right: 1em;
-}
-#profileblock{
-  padding-left:  2.4em;
+.icon {
+  padding: 0 1em;
 }
 
-.groupblock{
+#usericon {
+  padding-right: 1em;
+}
+
+#profileblock {
+  padding-left: 2.4em;
+}
+
+.groupblock {
   padding-left: 1em;
 }
 
-#muted{
+#muted {
   font-size: .9em;
   color: #496225;
 }
-.blockline{
+
+.blockline {
   display: flex;
   align-items: center;
 }

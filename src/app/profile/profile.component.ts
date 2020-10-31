@@ -17,7 +17,7 @@ export class ProfileComponent implements OnInit {
   faUser: IconDefinition = faUser;
   faEdit: IconDefinition = faEdit;
   contributions = 'Haz realizado 260 donaciones!';
-  confbutton= {
+  confbutton = {
     text: 'Sign Out',
     route: '/',
   };

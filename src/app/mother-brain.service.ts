@@ -1,4 +1,4 @@
-import {Injectable, OnInit} from '@angular/core';
+import {Injectable} from '@angular/core';
 import {sessionVals} from './session.vals';
 import {userVals} from './user.vals';
 import {CategoryData} from './category/category.component';
@@ -32,6 +32,10 @@ export class MotherBrainService {
     moneyearn: 10,
   };
 
+  constructor() {
+    this.user = this.dummyuser;
+    this.session = this.dummysession;
+  }
 
   public getChosenCat(): CategoryData {
     return this.session.chosenCat;
@@ -65,7 +69,6 @@ export class MotherBrainService {
     return this.user.phone;
   }
 
-
   public setChosenCat(category: CategoryData): void {
     this.session.chosenCat = category;
   }
@@ -97,11 +100,6 @@ export class MotherBrainService {
 
   public setCC(CC: string): void {
     this.user.ccnum = CC;
-  }
-
-  constructor() {
-    this.user = this.dummyuser;
-    this.session = this.dummysession;
   }
 
 }

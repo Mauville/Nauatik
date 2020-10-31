@@ -3,7 +3,7 @@
 
 <!-- Text Button -->
 <ng-template #text>
-  <button (mousedown)="toggleState()" (mouseup)="toggleState()" type="button" class="chunky {{buttonConfig.role}}">
+  <button (mousedown)="toggleState()" (mouseup)="toggleState()" class="chunky {{buttonConfig.role}}" type="button">
     <a routerLink="{{buttonConfig.route}}" routerLinkActive="active">{{buttonConfig.text}}</a>
   </button>
 
@@ -12,7 +12,7 @@
 
 <!-- Image Button -->
 <ng-template #image>
-  <img [src]="buttonConfig.src"
-       [ngStyle]="buttonConfig.styles"
+  <img [ngStyle]="buttonConfig.styles"
+       [src]="buttonConfig.src"
        alt="">
 </ng-template>

@@ -7,13 +7,13 @@
 <div class="flex graph">
   <div class="flex-item">
     <div style="display: block;">
-      <canvas baseChart width="400" height="400"
-              [datasets]="lineChartData"
+      <canvas [chartType]="lineChartType" [colors]="lineChartColors" [datasets]="lineChartData"
               [labels]="lineChartLabels"
-              [options]="lineChartOptions"
-              [colors]="lineChartColors"
               [legend]="lineChartLegend"
-              [chartType]="lineChartType"
+              [options]="lineChartOptions"
+              baseChart
+              height="400"
+              width="400"
       ></canvas>
     </div>
   </div>
@@ -23,11 +23,11 @@
   <div>
     <div>
       <div style="display: block">
-        <canvas id="pie" baseChart
-                [data]="polarAreaChartData"
+        <canvas [chartType]="polarAreaChartType" [data]="polarAreaChartData"
                 [labels]="polarAreaChartLabels"
                 [legend]="polarAreaLegend"
-                [chartType]="polarAreaChartType">
+                baseChart
+                id="pie">
         </canvas>
       </div>
     </div>

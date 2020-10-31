@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { CauseComponent } from './cause.component';
+import {CauseComponent} from './cause.component';
 
 describe('CauseComponent', () => {
   let component: CauseComponent;
@@ -8,9 +8,9 @@ describe('CauseComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CauseComponent ]
+      declarations: [CauseComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

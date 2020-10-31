@@ -19,7 +19,7 @@ import {CauseComponent} from './cause/cause.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {SignupComponent} from './signup/signup.component';
 import {ChartsModule} from 'ng2-charts';
-import { SummaryComponent } from './summary/summary.component';
+import {SummaryComponent} from './summary/summary.component';
 import {MotherBrainService} from './mother-brain.service';
 
 @NgModule({

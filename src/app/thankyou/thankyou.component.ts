@@ -17,12 +17,10 @@ export class ThankyouComponent implements OnInit {
     text: 'Terminar',
     route: '/home'
   };
+  mail: string;
 
   constructor(private mbService: MotherBrainService) {
   }
-
-  mail: string;
-
 
   ngOnInit(): void {
     this.mail = this.mbService.getPhone();

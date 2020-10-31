@@ -1,22 +1,24 @@
-img{
+img {
   width: 3em;
   height: auto;
 }
-p{
+
+p {
   text-align: center;
   font-size: 11px;
   max-width: 90%;
 }
 
-.center{
+.center {
   margin: 1em;
 }
-.category-item{
+
+.category-item {
   max-width: 3em;
   width: 3em;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }

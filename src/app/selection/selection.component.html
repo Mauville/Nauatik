@@ -1,10 +1,10 @@
 <app-header></app-header>
 <div class="center">
   <h1 i18n="selected">Has Seleccionado:</h1>
-  <app-banner i18n-text="plastic" [img]="image" [text]="text"></app-banner>
+  <app-banner [img]="image" [text]="text" i18n-text="plastic"></app-banner>
   <div id="nether">
     <div class="blockline">
-      <input (keyup)="calc()" #massInput type="text" placeholder="1"><label>kg</label>
+      <input #massInput (keyup)="calc()" placeholder="1" type="text"><label>kg</label>
     </div>
     <img src="assets/scale.png">
     <h4 i18n="earnings">Tu ganancia será de:</h4>

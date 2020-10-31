@@ -86,16 +86,13 @@ export class SummaryComponent implements OnInit {
   ];
   public lineChartLegend = true;
   public lineChartType: ChartType = 'line';
-  private pluginAnnotations = '';
-  public lineChartPlugins = [this.pluginAnnotations];
-
   // PolarArea
   public polarAreaChartLabels: Label[] = ['Plastico', 'Papel', 'Vidrio', 'Alimentos', 'Latas', 'Sanitarios'];
   public polarAreaChartData: SingleDataSet = [320, 415, 67, 60, 61, 69];
   public polarAreaLegend = true;
-
   public polarAreaChartType: ChartType = 'polarArea';
-
+  private pluginAnnotations = '';
+  public lineChartPlugins = [this.pluginAnnotations];
 
   constructor() {
   }

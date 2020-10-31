@@ -23,7 +23,7 @@ export class CauseComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.address =  this.mbService.getAddress()[0];
+    this.address = this.mbService.getAddress()[0];
   }
 
 }

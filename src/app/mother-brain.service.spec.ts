@@ -1,6 +1,6 @@
-import { TestBed } from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 
-import { MotherBrainService } from './mother-brain.service';
+import {MotherBrainService} from './mother-brain.service';
 
 describe('MotherBrainService', () => {
   let service: MotherBrainService;
