@@ -15,7 +15,8 @@ export class LoginComponent implements OnInit {
   };
 
   SignUpButtonConfig = {
-    text: 'Sign Up'
+    text: 'Sign Up',
+    route: '/signup'
   };
 
   constructor() {

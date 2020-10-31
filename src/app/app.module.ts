@@ -16,6 +16,8 @@ import { SelectionComponent } from './selection/selection.component';
 import { DetailsComponent } from './details/details.component';
 import { ThankyouComponent } from './thankyou/thankyou.component';
 import { CauseComponent } from './cause/cause.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +32,15 @@ import { CauseComponent } from './cause/cause.component';
     SelectionComponent,
     DetailsComponent,
     ThankyouComponent,
-    CauseComponent
+    CauseComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     FontAwesomeModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

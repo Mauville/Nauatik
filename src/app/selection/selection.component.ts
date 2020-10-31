@@ -11,7 +11,7 @@ export class SelectionComponent implements OnInit {
   // TODO Fix nonresponsiveness
 
   forwardConfig = {
-    route: '/',
+    route: '/cause',
     text: 'Continuar'
   };
 

@@ -7,15 +7,17 @@ import {SelectionComponent} from './selection/selection.component';
 import {DetailsComponent} from './details/details.component';
 import {ThankyouComponent} from './thankyou/thankyou.component';
 import {CauseComponent} from './cause/cause.component';
+import {SignupComponent} from './signup/signup.component';
 
 const routes: Routes = [
-  {path: '', component: LoginComponent},
-  {path: 'home', component: HomeComponent},
-  {path: 'profile', component: ProfileComponent},
-  {path: 'selection', component: SelectionComponent},
-  {path: 'details', component: DetailsComponent},
-  {path: 'thankyou', component: ThankyouComponent},
-  {path: 'cause', component: CauseComponent},
+  {path: '', component: LoginComponent, data: {animation: 'Login'}},
+  {path: 'home', component: HomeComponent, data: {animation: 'Home'}},
+  {path: 'profile', component: ProfileComponent, data: {animation: 'Profile'}},
+  {path: 'selection', component: SelectionComponent, data: {animation: 'Selection'}},
+  {path: 'details', component: DetailsComponent, data: {animation: 'Details'}},
+  {path: 'thankyou', component: ThankyouComponent, data: {animation: 'ThankYou'}},
+  {path: 'cause', component: CauseComponent, data: {animation: 'Cause'}},
+  {path: 'signup', component: SignupComponent, data: {animation: 'SignUp'}},
 ];
 
 @NgModule({

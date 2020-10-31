@@ -7,10 +7,9 @@ import {Component, OnInit} from '@angular/core';
 })
 export class DetailsComponent implements OnInit {
 
-  // TODO Add route
 
   buttonBack = {
-    route: '/',
+    route: '/cause',
     text: 'Atras'
   };
 
