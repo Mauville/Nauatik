@@ -1,0 +1,16 @@
+﻿= Nauatik
+:imagesdir: res
+
+This was a project I did over the course of a weekend. I started with zero knowledge of Angular and closed the final commit 24 hours after the first.
+
+It's a web app developed in Angular9. I'd say it was pretty darn fun to program it.
+😁
+
+image::[1.png]
+image::[2.png]
+image::[3.png]
+image::[4.png]
+image::[6.png]
+image::[5.png]
+image::[7.png]
+image::[8.png]
