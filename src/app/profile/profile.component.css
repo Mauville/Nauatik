@@ -21,3 +21,7 @@ h1{
   font-size: .9em;
   color: #496225;
 }
+.blockline{
+  display: flex;
+  align-items: center;
+}

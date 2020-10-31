@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {MotherBrainService} from '../mother-brain.service';
 
 @Component({
   selector: 'app-thankyou',
@@ -17,10 +18,14 @@ export class ThankyouComponent implements OnInit {
     route: '/home'
   };
 
-  constructor() {
+  constructor(private mbService: MotherBrainService) {
   }
 
+  mail: string;
+
+
   ngOnInit(): void {
+    this.mail = this.mbService.getPhone();
   }
 
 }

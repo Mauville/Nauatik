@@ -11,11 +11,11 @@ export class SummaryComponent implements OnInit {
 
   @ViewChild(BaseChartDirective, {static: true}) chart: BaseChartDirective;
 
-  // TODO Remove dummy data
+  // TODO Remove dummy data. This is from the docs
   public lineChartData: ChartDataSets[] = [
-    {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'},
-    {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'},
-    {data: [180, 480, 770, 90, 1000, 270, 400], label: 'Series C', yAxisID: 'y-axis-1'}
+    {data: [62, 73, 57, 116, 91, 106, 23], label: 'Plasticos'},
+    {data: [15, 57, 40, 35, 101, 6, 108], label: 'Sanitarios'},
+    {data: [162, 513, 677, 106, 927, 319, 261], label: 'Alimentos', yAxisID: 'y-axis-1'}
   ];
   public lineChartLabels: Label[] = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
   public lineChartOptions: (ChartOptions & { annotation: any }) = {
@@ -90,8 +90,8 @@ export class SummaryComponent implements OnInit {
   public lineChartPlugins = [this.pluginAnnotations];
 
   // PolarArea
-  public polarAreaChartLabels: Label[] = ['Download Sales', 'In-Store Sales', 'Mail Sales', 'Telesales', 'Corporate Sales'];
-  public polarAreaChartData: SingleDataSet = [300, 500, 100, 40, 120];
+  public polarAreaChartLabels: Label[] = ['Plastico', 'Papel', 'Vidrio', 'Alimentos', 'Latas', 'Sanitarios'];
+  public polarAreaChartData: SingleDataSet = [320, 415, 67, 60, 61, 69];
   public polarAreaLegend = true;
 
   public polarAreaChartType: ChartType = 'polarArea';

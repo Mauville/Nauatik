@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {IconDefinition} from '@fortawesome/fontawesome-svg-core';
 import {faCalendarDay, faEdit} from '@fortawesome/free-solid-svg-icons';
+import {MotherBrainService} from '../mother-brain.service';
 
 @Component({
   selector: 'app-cause',
@@ -16,11 +17,13 @@ export class CauseComponent implements OnInit {
     route: '/thankyou'
   };
 
+  address: string;
 
-  constructor() {
+  constructor(private mbService: MotherBrainService) {
   }
 
   ngOnInit(): void {
+    this.address =  this.mbService.getAddress()[0];
   }
 
 }

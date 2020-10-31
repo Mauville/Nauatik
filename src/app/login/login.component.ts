@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {MotherBrainService} from '../mother-brain.service';
 
 @Component({
   selector: 'app-login',
@@ -19,10 +20,17 @@ export class LoginComponent implements OnInit {
     route: '/signup'
   };
 
-  constructor() {
+  constructor(private mbService: MotherBrainService) {
+  }
+
+  validateSign(): void {
+    console.log('Here we would validate user data');
+    console.log('For now, just let the user in');
   }
 
   ngOnInit(): void {
+
+    console.log(this.mbService.user);
   }
 
 }

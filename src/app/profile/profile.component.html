@@ -3,7 +3,7 @@
 <div id="profileblock">
   <div class="blockline">
     <fa-icon [icon]="faUser" id="usericon" size="1x"></fa-icon>
-    <p i18n="username">User Name</p>
+    <p i18n="username">{{username}}</p>
   </div>
   <div class="blockline">
     <h3 i18n="my address">Mi Direccion</h3>
@@ -11,9 +11,9 @@
   </div>
 
   <div class="groupblock">
-    <p >Cumbres de Icaiche 256</p>
+    <p >{{add1}}</p>
     <div class="blockline">
-      <p>Lomas del Pedregal 98722</p>
+      <p>{{add2}}</p>
     </div>
     <p i18n="new add" id="muted"> + Agregar una direccion</p>
   </div>
@@ -22,7 +22,8 @@
     <fa-icon [icon]="faEdit" class="icon" size="1x"></fa-icon>
   </div>
   <div class="groupblock">
-    <p>**** **** ****  5643</p>
+    <p>{{card}}</p>
   </div>
 </div>
-<app-banner text="contributions"></app-banner>
+<!--TODO No time to declare contribs. Next iterations-->
+<app-banner text="0 contribuciones"></app-banner>

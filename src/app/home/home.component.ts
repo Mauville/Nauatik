@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {CategoryData} from '../category/category.component';
+import {MotherBrainService} from '../mother-brain.service';
 
 @Component({
   selector: 'app-home',
@@ -18,8 +19,7 @@ export class HomeComponent implements OnInit {
   sanitary: CategoryData = {faIcon: 'assets/facemask.png', title: 'Residuos Sanitarios'};
   categories: CategoryData[] = [this.plastic, this.paper, this.glass, this.food, this.cans, this.sanitary];
 
-  constructor() {
-  }
+
 
   ngOnInit(): void {
   }

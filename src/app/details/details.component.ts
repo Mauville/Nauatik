@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {MotherBrainService} from '../mother-brain.service';
 
 @Component({
   selector: 'app-details',
@@ -10,10 +11,12 @@ export class DetailsComponent implements OnInit {
     route: '/cause',
     text: 'Atras'
   };
+  src: string;
 
-  constructor() {
+  constructor(private mbService: MotherBrainService) {
   }
 
   ngOnInit(): void {
+    this.src = this.mbService.getChosenCat().faIcon;
   }
 }

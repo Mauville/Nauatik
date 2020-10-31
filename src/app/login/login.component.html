@@ -4,6 +4,6 @@
   <input [(ngModel)]="name" i18n-placeholder="user" placeholder="Usuario">
   <input type="password" i18n-placeholder="password" placeholder="Password">
   <a>Olvidaste tu contraseña?</a>
-  <app-button [buttonConfig]="LoginButtonConfig"></app-button>
+  <app-button (click)="validateSign" [buttonConfig]="LoginButtonConfig"></app-button>
   <app-button [buttonConfig]="SignUpButtonConfig"></app-button>
 </div>

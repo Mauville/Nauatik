@@ -1,15 +1,15 @@
 <app-header></app-header>
 <div class="center">
   <h1 i18n="selected">Has Seleccionado:</h1>
-  <app-banner i18n-text="plastic" text="Plastico"></app-banner>
+  <app-banner i18n-text="plastic" [img]="image" [text]="text"></app-banner>
   <div id="nether">
     <div class="blockline">
-      <input type="text" placeholder="1"><label>kg</label>
+      <input (keyup)="calc()" #massInput type="text" placeholder="1"><label>kg</label>
     </div>
     <img src="assets/scale.png">
     <h4 i18n="earnings">Tu ganancia será de:</h4>
-    <p id="earn">$<span id="money">200</span></p>
-    <app-button [buttonConfig]="forwardConfig"></app-button>
+    <p id="earn">$<span id="money">{{price}}</span></p>
+    <app-button (click)="setSesh()" [buttonConfig]="forwardConfig"></app-button>
   </div>
 </div>
 

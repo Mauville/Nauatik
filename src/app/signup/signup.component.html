@@ -1,14 +1,17 @@
-<div class="center">
+<!--//I can't get registerUser() to run on the custom button. Fallback to keyup event-->
+<div (keyup)="registerUser()" class="center">
   <img id="logo" src="assets/logogreen.png" alt="logo">
   <h1 i18n="welcome"> Bienvenido</h1>
   <p i18n="complete info">Completa la info de tu perfil</p>
-  <input i18n-placeholder="name" placeholder="Nombre">
-  <input i18n-placeholder="number" placeholder="Telefono">
+  <input #nameInput i18n-placeholder="name" placeholder="Nombre">
+  <input #numberInput i18n-placeholder="number" placeholder="Telefono">
+  <input #passInput i18n-placeholder="number" type=password placeholder="Password">
   <app-banner i18n-text="add" text="Direccion de la recoleccion"></app-banner>
-  <input i18n-placeholder="add1" placeholder="Direccion linea 1">
-  <input i18n-placeholder="add2" placeholder="Direccion Linea 2">
+  <input #add1Input i18n-placeholder="add1" placeholder="Direccion linea 1">
+  <input #add2Input i18n-placeholder="add2" placeholder="Direccion Linea 2">
   <app-banner i18n-text="acccount to dep" text="Cuenta a la que depositaremos"></app-banner>
-  <input i18n-placeholder="capture" placeholder="Linea de Captura">
+  <input #ccInput i18n-placeholder="capture" placeholder="Linea de Captura">
   <app-button [buttonConfig]="buttonConfig"></app-button>
+
 </div>
 

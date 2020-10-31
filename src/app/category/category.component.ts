@@ -1,6 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {MotherBrainService} from '../mother-brain.service';
 
-export interface CategoryData{
+export interface CategoryData {
   faIcon: string;
   title: string;
 }
@@ -14,7 +15,11 @@ export interface CategoryData{
 export class CategoryComponent implements OnInit {
   @Input() categoryConfig: CategoryData;
 
-  constructor() {
+  constructor(private mbService: MotherBrainService) {
+  }
+
+  setSeshCat(): void {
+    this.mbService.setChosenCat(this.categoryConfig);
   }
 
   ngOnInit(): void {

@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {MotherBrainService} from '../mother-brain.service';
 
 @Component({
   selector: 'app-selection',
@@ -7,18 +8,33 @@ import {Component, OnInit} from '@angular/core';
 })
 export class SelectionComponent implements OnInit {
 
-  // TODO make data not static
-  // TODO Fix nonresponsiveness
+  @ViewChild('massInput') massInput: ElementRef;
+
+  text: string;
+  image: string;
+  price = 0;
+
 
   forwardConfig = {
     route: '/cause',
     text: 'Continuar'
   };
 
-  constructor() {
+  constructor(private mbService: MotherBrainService) {
+  }
+
+  calc(): void {
+    this.price = 25 * this.massInput.nativeElement.value;
+
+  }
+
+  setSesh(): void {
+    this.mbService.setMoneyEarn(this.price);
   }
 
   ngOnInit(): void {
+    this.text = this.mbService.getChosenCat().title;
+    this.image = this.mbService.getChosenCat().faIcon;
   }
 
 }

@@ -20,6 +20,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {SignupComponent} from './signup/signup.component';
 import {ChartsModule} from 'ng2-charts';
 import { SummaryComponent } from './summary/summary.component';
+import {MotherBrainService} from './mother-brain.service';
 
 @NgModule({
   declarations: [
@@ -46,8 +47,10 @@ import { SummaryComponent } from './summary/summary.component';
     BrowserAnimationsModule,
     ChartsModule
   ],
-  providers: [],
+  providers: [MotherBrainService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
+  constructor(private mbService: MotherBrainService) {
+  }
 }
